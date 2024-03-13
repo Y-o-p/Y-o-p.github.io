@@ -6,18 +6,18 @@ name: "Jesse Rheal"
 
 # Site Author
 author:
-  name             : "Jesse Rheal"
-  avatar           : "imgs/me.jpeg"
-  bio              : "Currently working on this website."
-  location         : "Huntsville, AL"
-  email            : "jessecolerheal@live.com"
+  name: "Jesse Rheal"
+  avatar: "imgs/me.jpeg"
+  bio: "I'm a Computer Science graduate from the University of Alabama in Huntsville, expected to graduate in May 2024. My expertise spans various programming languages, including C++, Python, Rust, Javascipt, C#, Java, and more. I have a special interest in Computer Graphics, but I also have skills in building databases, APIs, websites, and GUIs."
+  location: "Huntsville, AL"
+  email: "jessecolerheal@live.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:jessecolerheal@live.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/Y-o-p"
+      url: "https://github.com/Y-o-p"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jesse-rheal/"
 
 defaults:
   # _pages
@@ -27,6 +27,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+include: ["_pages"]
 
 plugins:
   - jekyll-include-cache
