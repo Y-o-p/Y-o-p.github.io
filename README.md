@@ -1,4 +1,3 @@
-# My Projects
 Hi, I'm Jesse. Welcome to my portfolio website. Here, you'll find all my favorite projects I've developed over the years in reverse chronological order. Each project was developed independently unless otherwise stated. 
 
 ## [fog](https://github.com/Y-o-p/fog) Volume Ray Casting --- Oct 2023 to Jan 2024
