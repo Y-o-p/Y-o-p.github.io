@@ -14,7 +14,7 @@ _Oct 2023 to Jan 2024_
 [Click Here](/poster/) to see my Research Horizons Day poster. 
 {: .notice--success}
 
-{% include figure image_path="imgs/PerlinCube.gif" alt="Perlin Noise Cube" caption="Realtime fog rendering of a perlin noise cube on the GPU." %}
+{% include figure image_path="imgs/PerlinCube.gif" alt="Perlin Noise Cube" caption="A " %}
 
 ## [RSNBB](https://github.com/Y-o-p/recipes-should-not-be-blogs): Recipe Scraper
 _Jun 2023_
@@ -55,12 +55,16 @@ _Jun 2023_
 ## [hottify](https://github.com/Y-o-p/hottify): Global Spotify Hotkeys
 _Jun 2022_
 
-**hottify** is an application that runs in the background to provide global hotkeys for Spotify built with Python. No matter what application you're in you're able to pause, play, skip, etc from a keyboard that doesn't have media keys. 
+**hottify** is an application built with Python that runs in the background to provide global hotkeys for Spotify. No matter what application you're in, you're able to pause, play, skip, etc from a keyboard that doesn't have media keys. This was my first project outside of my work to use an API.
 
 ## [ArchaicGE](https://github.com/Y-o-p/ArchaicGE): 3D Console Graphics
 _May 2018 (Revisited May 2020)_
 
 **ArchaicGE** is a raster graphics framework built with C# that displays 3D objects in the console where different characters correspond to different light values. At this point, I had some experience with OpenGL but I wanted to learn more about the raster graphics pipeline. I took it upon myself to learn basic linear algebra, Bresenham's line algorithm, rasterization, z-buffering, and C# all in one project.
+
+{% include figure image_path="imgs/Suzanne.png" alt="Suzanne" caption="The Blender monkey, Suzanne, rendered by ArchaicGE." %}
+
+{% include figure image_path="imgs/dragon.png" alt="Dragon" caption="A dragon rendered by ArchaicGE." %}
 
 {% include video id="m0qT37L4gcY" provider="youtube" %}
 
