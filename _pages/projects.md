@@ -9,12 +9,12 @@ Hi, I'm Jesse. Welcome to my portfolio website. Here, you'll find all my favorit
 ## [fog](https://github.com/Y-o-p/fog): Volume Ray Casting
 _Oct 2023 to Jan 2024_
 
-**fog** is a Volume Ray Casting framework built with C++ and OpenGL. This was done for my honors capstone, a final project for my honors diploma at UAH. I compared results between CPU and GPU implementations and put them on a poster for UAH's Research Horizons Day.
+**fog** is a Volume Ray Casting framework built with C++ and OpenGL. This was done for my honors capstone, a final project for my honors diploma at UAH. I took concepts I learned from the Intro to Computer Graphics course taught at UAH--such as Barycentric interpolation, orthographic viewing, blending, Blinn-Phong illumination--and combined them with further studies of volumetric ray casting to achieve the effect below. The ray casting concepts used in this project include central-difference gradient, image-order ray casting, and additive compositing. I also compared results between CPU and GPU implementations and put them on a poster for UAH's Research Horizons Day. 
 
 [Click Here](/poster/) to see my Research Horizons Day poster. 
 {: .notice--success}
 
-{% include figure image_path="imgs/PerlinCube.gif" alt="Perlin Noise Cube" caption="A " %}
+{% include figure image_path="imgs/PerlinCube.gif" alt="Perlin Noise Cube" caption="A real-time Perlin noise cube rendering by fog." %}
 
 ## [RSNBB](https://github.com/Y-o-p/recipes-should-not-be-blogs): Recipe Scraper
 _Jun 2023_
